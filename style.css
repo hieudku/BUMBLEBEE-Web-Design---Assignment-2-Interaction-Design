@@ -86,16 +86,18 @@ header {
     background-color: #d3d2d1;
     }
 footer {
-    padding-top: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     position: relative;
     bottom: 0;
     width: 100%;
     background-color: #302e2e;
     color: white;
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:baseline;
+    gap: 8rem;
     }
 body {
     display: flex;
