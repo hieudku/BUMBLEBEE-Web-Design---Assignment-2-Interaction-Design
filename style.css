@@ -49,7 +49,7 @@ li a {
     width: 8rem;
     margin-top: 2rem;
     margin-left: 5rem;
-    border: solid rgb(223, 216, 214) 6px;
+    border: solid white 2px;
     }
 header {
     width: 100vw;
@@ -90,7 +90,7 @@ footer {
     padding-bottom: 4rem;
     position: relative;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     background-color: #302e2e;
     color: white;
     flex-direction: row;
@@ -111,7 +111,7 @@ body {
     display: flex;
 }
 .searchBar {
-    width: 8rem;
+    width: 5rem;
 }
 #login {
     display: flex;
@@ -156,14 +156,14 @@ img:hover {
 #iconLine {
     margin-top: 2rem;
     margin-left: 0.5rem;
-    height: 8.5rem;
+    height: 8rem;
 }
 aside {
     display: block;
-    background-color: #919399;
+    background-color: #f18339;
     color: white;
     height: 100vh;
-    width: 20rem;
+    width: 18rem;
 }
 #asideList {
     margin-top: 3rem;
@@ -178,6 +178,7 @@ aside {
     margin-left: 2rem;
 }
 .sideLink {
+    width: 8rem;
     font-size: 1.2rem;
     padding-top: 2rem;
     cursor: pointer;
@@ -185,7 +186,7 @@ aside {
     padding-bottom: 2rem;
 }
 .sideLink:hover {
-    background-color: #d3d2d1;
+    background-color: #e4db61;
     color:#302e2e;
 }
 .sideLink:hover .sideIcon {
@@ -196,10 +197,11 @@ aside {
     margin-top: 2rem;
 }
 .sideIcon {
-    height: 3rem;
-    width: 3rem;
+    height: 2rem;
+    width: 2rem;
     margin: 0;
     margin-right: 2rem;
+    margin-left: 2rem;
 }
 .sideIcon:hover .sideLink {
     opacity: 1;
@@ -207,6 +209,6 @@ aside {
 .sideContent {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:flex-start;
     align-items: center;
 }
