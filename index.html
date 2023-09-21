@@ -1,0 +1,130 @@
+<!DOCTYPE.html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Interaction Design - Week 11</title>
+</head>
+
+<header>
+	<div id="navBar">
+        <div><img id="icon" src="./img/bob3.jpg"></div><hr id="iconLine">
+		<div id="iconText">
+			<p><b>BOB<br>THE<br>BUILDER</b></p>
+		</div>
+		<ul>
+			<li><a class="navLink" href="#">Home</a></li>
+			<li class="serviceDropdown">
+				<span><a class="navLink" href="#services">Account</a></span>
+					<div class="dropdown-content">
+						<p>Login</p>
+						<p>Sign up</p>
+						<p>Profile</p>
+					</div>
+			</li>
+			<li class="serviceDropdown">
+				<span><a class="navLink" href="#services">Services</a></span>
+					<div class="dropdown-content">
+						<p>Service List</p>
+						<p>Service Details</p>
+						<p>Collection</p>
+					</div>
+			</li>
+			<li class="serviceDropdown">
+				<span><a class="navLink" href="#services">Our work</a></span>
+					<div class="dropdown-content">
+							<p>Gallery</p>
+							<p>Clients</p>
+							<p>Our team</p>
+					</div>
+			</li>
+		</ul>
+		<div id="login">
+            <input class="searchBar" type="text" placeholder="Search..">
+            </div>
+	</div>
+	<div id="headerText">
+		<p>Start Building Your Online Presence With</p>
+	</div>
+	<div id="runningText"></div>
+</header>
+<body>
+	<aside>
+		<div id="asideList">
+			<a class="sideLink">Dashboard</a>
+			<a class="sideLink">User Profile</a>
+			<a class="sideLink">Service</a>
+			<a class="sideLink">Contact</a>
+			<a class="sideLink">About</a>
+		</div>
+		<hr id="sideLine">
+		<div>
+			<p>BobTheBuilder Web Design Ltd</p>
+			<p>123 StreetName st</p>
+			<p>CityName CA 9999</p>
+			<p>All rights reserved</p>
+		</div>
+	</aside>
+	<main>
+
+	</main>
+</body>
+<footer>
+	<p>BobTheBuilder Web Design 2023</p>
+	<p>All rights reserved</p>
+	<p>Contact us</p>
+	<div id="contact-icons">
+	<img src="./img/icons8-twitter-48.png">
+	<img src="./img/icons8-youtube-48.png">
+	<img src="./img/icons8-instagram-48.png">
+	<img src="./img/icons8-facebook-48.png">
+	<img src="./img/icons8-whatsapp-48.png">
+	</div>
+	</footer>
+<script>
+var messages = [
+	'Hospitality Web Design',
+	'Web-based Personal Portolio',
+	'Educational Web Design',
+	'Small Business Pages',
+	'Travel & Online Booking System',
+	'Marketing And Advertisement Services'
+];
+
+var currMessageIndex = 0;
+var curr = 0;
+var isErasing = false;
+
+var Write = function write() {
+    var elem = document.getElementById('runningText');
+    var currentMessage = messages[currMessageIndex];
+
+    if (isErasing) {
+        elem.textContent = currentMessage.substring(0, curr);
+        if (curr === 0) {
+            isErasing = false;
+            currMessageIndex = (currMessageIndex + 1) % messages.length;
+            window.setTimeout(write, 700); // Pause before writing the next message
+        } else {
+            curr--;
+            window.setTimeout(write, 40); // Continue erasing
+        }
+    } else {
+        elem.textContent = currentMessage.substring(0, curr);
+        curr++;
+
+        if (curr <= currentMessage.length) {
+            window.setTimeout(write, 40); // Continue writing
+        } else {
+            isErasing = true;
+            window.setTimeout(write, 700); // Pause before erasing
+        }
+    }
+};
+Write();
+
+
+</script>
+</html>
