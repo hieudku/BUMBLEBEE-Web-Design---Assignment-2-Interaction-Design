@@ -1,5 +1,5 @@
 html {
-    font-family:'Courier New', Courier, monospace;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
     }
@@ -138,6 +138,7 @@ img:hover {
     width: fit-content;
 }
 #runningText {
+    font-family: 'Courier New', Courier, monospace;
     margin-top: 2rem;
     color: white;
     margin-left: 5rem;
@@ -159,11 +160,10 @@ img:hover {
 }
 aside {
     display: block;
-    background-color: #403d3d;
+    background-color: #484545;
     color:#d3d2d1;
     height: 100vh;
     width: 20rem;
-    padding-left: 4rem;
 }
 #asideList {
     margin-top: 3rem;
@@ -171,14 +171,24 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    gap: 2rem;
 }
 #sideLine {
     width: 250px;
     margin: 0;
-    margin-bottom: 2rem;
+    margin-left: 2rem;
 }
 .sideLink {
     font-size: 1.2rem;
     padding-top: 2rem;
+    cursor: pointer;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+.sideLink:hover {
+    background-color: #d3d2d1;
+    color:#302e2e;
+}
+#sideDetail {
+    margin-left: 2rem;
+    margin-top: 2rem;
 }
