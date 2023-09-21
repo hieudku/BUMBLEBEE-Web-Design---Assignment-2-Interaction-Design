@@ -160,8 +160,8 @@ img:hover {
 }
 aside {
     display: block;
-    background-color: #484545;
-    color:#d3d2d1;
+    background-color: #919399;
+    color: white;
     height: 100vh;
     width: 20rem;
 }
@@ -188,7 +188,25 @@ aside {
     background-color: #d3d2d1;
     color:#302e2e;
 }
+.sideLink:hover .sideIcon {
+    opacity: 1;
+}
 #sideDetail {
     margin-left: 2rem;
     margin-top: 2rem;
+}
+.sideIcon {
+    height: 3rem;
+    width: 3rem;
+    margin: 0;
+    margin-right: 2rem;
+}
+.sideIcon:hover .sideLink {
+    opacity: 1;
+}
+.sideContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
