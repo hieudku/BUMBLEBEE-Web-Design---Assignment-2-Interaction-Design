@@ -186,8 +186,7 @@ aside {
     padding-bottom: 2rem;
 }
 .sideLink:hover {
-    background-color: #e4db61;
-    color:#302e2e;
+    background-color: #d86b2b;
 }
 .sideLink:hover .sideIcon {
     opacity: 1;
@@ -197,8 +196,8 @@ aside {
     margin-top: 2rem;
 }
 .sideIcon {
-    height: 2rem;
-    width: 2rem;
+    height: 1.8rem;
+    width: 1.8rem;
     margin: 0;
     margin-right: 2rem;
     margin-left: 2rem;
@@ -211,4 +210,5 @@ aside {
     flex-direction: row;
     justify-content:flex-start;
     align-items: center;
+    border: solid rgb(231, 167, 150) 1px;
 }
