@@ -111,7 +111,11 @@ body {
     display: flex;
 }
 .searchBar {
-    width: 5rem;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    border: none;
 }
 #login {
     display: flex;
@@ -130,7 +134,7 @@ img:hover {
     padding-right: 1rem;
     background-color: #d3d2d1;
     color: black;
-    margin-left: 5rem;
+    margin-left: 8rem;
     display: flex;
     justify-content: left;
     font-size: 1.2rem;
@@ -141,7 +145,7 @@ img:hover {
     font-family: 'Courier New', Courier, monospace;
     margin-top: 2rem;
     color: white;
-    margin-left: 5rem;
+    margin-left: 8rem;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -160,10 +164,12 @@ img:hover {
 }
 aside {
     display: block;
-    background-color: #f18339;
-    color: white;
+    background-color: #d9d4d1;
+    color: rgb(36, 35, 35);
     height: 100vh;
     width: 18rem;
+    border: solid rgb(197, 180, 176) 1px;
+    box-sizing: border-box;
 }
 #asideList {
     margin-top: 3rem;
@@ -178,22 +184,21 @@ aside {
     margin-left: 2rem;
 }
 .sideLink {
-    width: 8rem;
-    font-size: 1.2rem;
+    width: 12rem;
+    font-size: 1rem;
     padding-top: 2rem;
     cursor: pointer;
     padding-left: 2rem;
     padding-bottom: 2rem;
-}
-.sideLink:hover {
-    background-color: #d86b2b;
+    transition: 0.4s;
 }
 .sideLink:hover .sideIcon {
     opacity: 1;
 }
 #sideDetail {
     margin-left: 2rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    font-size: 0.8rem;
 }
 .sideIcon {
     height: 1.8rem;
@@ -210,5 +215,10 @@ aside {
     flex-direction: row;
     justify-content:flex-start;
     align-items: center;
-    border: solid rgb(231, 167, 150) 1px;
+    border: solid rgb(197, 180, 176) 1px;
+    box-sizing: border-box;
+}
+.sideContent:hover {
+    background-color: #c0bdbb;
+    transition: 0.4s;
 }

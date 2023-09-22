@@ -128,14 +128,14 @@ var Write = function write() {
             window.setTimeout(write, 700); // Pause before writing the next message
         } else {
             curr--;
-            window.setTimeout(write, 40); // Continue erasing
+            window.setTimeout(write, 60); // Continue erasing
         }
     } else {
         elem.textContent = currentMessage.substring(0, curr);
         curr++;
 
         if (curr <= currentMessage.length) {
-            window.setTimeout(write, 40); // Continue writing
+            window.setTimeout(write, 60); // Continue writing
         } else {
             isErasing = true;
             window.setTimeout(write, 700); // Pause before erasing
