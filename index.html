@@ -14,9 +14,9 @@
 			<p><b>BOB<br>THE<br>BUILDER</b></p>
 		</div>
 		<ul>
-			<li><a class="navLink" href="#">Home</a></li>
+			<li><a class="navLink" href="#">HOME</a></li>
 			<li class="serviceDropdown">
-				<span><a class="navLink" href="#services">Account</a></span>
+				<span><a class="navLink" href="#services">ACCOUNT</a></span>
 					<div class="dropdown-content">
 						<p>Login</p>
 						<p>Sign up</p>
@@ -24,7 +24,7 @@
 					</div>
 			</li>
 			<li class="serviceDropdown">
-				<span><a class="navLink" href="#services">Services</a></span>
+				<span><a class="navLink" href="#services">SERVICES</a></span>
 					<div class="dropdown-content">
 						<p>Service List</p>
 						<p>Service Details</p>
@@ -32,7 +32,7 @@
 					</div>
 			</li>
 			<li class="serviceDropdown">
-				<span><a class="navLink" href="#services">Our work</a></span>
+				<span><a class="navLink" href="#services">OUR WORK</a></span>
 					<div class="dropdown-content">
 							<p>Gallery</p>
 							<p>Clients</p>
@@ -121,6 +121,7 @@
 			<img src="./img/icons8-facebook-48.png">
 		</div>
 	</div>
+	
 	</footer>
 <script>
 var messages = [
@@ -145,20 +146,20 @@ var Write = function write() {
         if (curr === 0) {
             isErasing = false;
             currMessageIndex = (currMessageIndex + 1) % messages.length;
-            window.setTimeout(write, 700); // Pause before writing the next message
+            window.setTimeout(write, 900); // Pause before writing the next message
         } else {
             curr--;
-            window.setTimeout(write, 60); // Continue erasing
+            window.setTimeout(write, 30); // Continue erasing
         }
     } else {
         elem.textContent = currentMessage.substring(0, curr);
         curr++;
 
         if (curr <= currentMessage.length) {
-            window.setTimeout(write, 60); // Continue writing
+            window.setTimeout(write, 30); // Continue writing
         } else {
             isErasing = true;
-            window.setTimeout(write, 700); // Pause before erasing
+            window.setTimeout(write, 900); // Pause before erasing
         }
     }
 };
