@@ -6,17 +6,19 @@ html {
     margin: 0;
     padding: 0;
     }
+
+/*Main content*/
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     background-color: white;
     font-family: 'Oxygen', sans-serif;
     }
-#mainBody {
-    display: flex;
-}
-/*Main content*/
-
+    #mainBody {
+        display: flex;
+    }
 main {
     padding-left: 4rem;
     display: flex;
@@ -82,6 +84,8 @@ li a {
     margin-left: 5rem;
     border: solid #2e2e2e 2px;
     }
+
+/*Header content only*/
 header {
     background-color: #f66e2f;
     color:#2e2e2e;
@@ -130,10 +134,8 @@ footer {
     align-items:baseline;
     gap: 8rem;
     }
-body {
-    display: flex;
-    flex-direction: column;
-    }
+/*Header content only*/
+
 #contact-icons {
     padding: 1rem;
     display: flex;
@@ -213,6 +215,7 @@ img:hover {
     margin-left: 0.5rem;
     height: 8rem;
 }
+/*Side bar only */
 aside {
     margin-top: 8rem;
     position: sticky;
@@ -234,7 +237,6 @@ aside {
 #sideLine {
     width: 250px;
     margin: 0;
-    
 }
 .sideLink {
     width: 10rem;
@@ -273,6 +275,7 @@ aside {
     box-sizing: border-box;
 }
 .sideContent:hover {
-    background-color: #3ea16a;
+    background-color: #f0c3b1;
     transition: 0.4s;
 }
+/*Side bar only */
