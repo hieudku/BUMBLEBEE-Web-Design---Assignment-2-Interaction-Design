@@ -1,0 +1,110 @@
+/*Fonts import */
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:opsz@8..30&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+/* Inner form */
+.form {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    background-color: #472407;
+    width: 28rem;
+    height: 44rem;
+    min-width: 15rem;
+    min-height: 14rem;
+    transition: 0.5s;
+    padding-top: 1rem;
+}
+
+.basicList, .radio {
+    list-style-type: none;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    gap: 1rem;
+}
+input {
+    background-color: rgb(46, 44, 44, 0.8);
+    border: none;
+    height: 2rem;
+    width: 10.5rem;
+    color: rgb(232, 222, 210);
+}
+.btn {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #d2c74d;
+    color: #2e2e2e;
+    width: 14rem;
+    height: 6rem;
+    font-size: 1.7rem;
+    transition: 0.2s;
+    border: 1px solid #79722d;
+    margin-top: 3rem;
+}
+.btn:hover {
+    background-color: #79722d;
+    color: white;
+    transition: 0.2s;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+.label1, .label2 {
+    color: rgb(232, 222, 210);
+    font-size: 0.8rem;
+    max-width: 20rem;
+}
+.rad1, .rad2 {
+    display: flex;
+    text-align:justify;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+.signIn {
+    font-size: 1rem;
+    color:rgb(232, 222, 210);
+}
+.signLink {
+    color:#d2c74d;
+}
+.input {
+    background-color: rgba(95, 90, 90, 0.6);
+    color:rgb(232, 222, 210);
+}
+/* Valid check */
+.input:valid {
+    background-color: rgba(67, 143, 91, 0.2);
+}
+.input:invalid:focus {
+    background-color: rgba(124, 62, 52, 0.2);
+}
+.check1, .check2 {
+    width: 1rem;
+}
+html {
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+
+/*Header */
+
+
+
+
+/*Main content */
+
+
+
+/*Footer */
