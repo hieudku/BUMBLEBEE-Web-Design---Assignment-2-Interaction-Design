@@ -136,6 +136,10 @@ footer {
     gap: 8rem;
     }
 /*Header content only*/
+#form-link {
+    text-decoration: none;
+    color: black;
+}
 #form-button {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.2rem;;
