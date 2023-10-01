@@ -18,15 +18,33 @@ body {
     justify-content: center;
 }
 #form {
+    margin-top: 10rem;
     font-size: 15px;
     padding: 1rem;
     background-color: #c4bebb;
-    max-width: 40rem;
+    max-width: 22rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 #form-ul {
     text-decoration: none;
     list-style: none;
 }
+.form-list {
+    height: 30px;
+}
+.input {
+    height: 2rem;
+    width: 15rem;
+}
 #radio {
     list-style: none;
+}
+#btn {
+    font-family: 'Quicksand', sans-serif;
+    padding: 1rem;
+    font-size : 1.5rem;
 }
