@@ -20,9 +20,13 @@ body {
 #form {
     font-size: 15px;
     padding: 1rem;
-    background-color: #d9e4e7;
+    background-color: #c4bebb;
     max-width: 40rem;
 }
 #form-ul {
-    
+    text-decoration: none;
+    list-style: none;
+}
+#radio {
+    list-style: none;
 }
