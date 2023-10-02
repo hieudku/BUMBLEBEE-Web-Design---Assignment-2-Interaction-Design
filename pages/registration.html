@@ -9,7 +9,47 @@
 </head>
 <body>
     <header>
+        <div id="navBar">
+            <div><img id="icon" src="./img/bob3.jpg"></div><hr id="iconLine">
+            <div id="iconText">
+                <p><b>BOB<br>THE<br>BUILDER</b></p>
+            </div>
+            <ul id="header-ul">
+                <li><a class="navLink" href="#"><strong>HOME</strong></a></li>
+                <li class="serviceDropdown">
+                    <span><a class="navLink" href="#services"><strong>ACCOUNT</strong></a></span>
+                        <div class="dropdown-content">
+                            <p><a class="dropdown-link" href="./pages/login/login.html" target="_blank">Login</a></p>
+                            <p><a class="dropdown-link" href="./pages/registration.html" target="_blank">Sign up</a></p>
+                            <p><a class="dropdown-link">Profile</a></p>
+                        </div>
+                </li>
+                <li class="serviceDropdown">
+                    <span><a class="navLink" href="#services"><strong>SERVICES</strong></a></span>
+                        <div class="dropdown-content">
+                            <p>Service List</p>
+                            <p>Service Details</p>
+                            <p>Collection</p>
+                        </div>
+                </li>
+                <li class="serviceDropdown">
+                    <span><a class="navLink" href="#services"><strong>OUR WORK</strong></a></span>
+                        <div class="dropdown-content">
+                                <p>Gallery</p>
+                                <p>Clients</p>
+                                <p>Our team</p>
+                        </div>
+                </li>
+            </ul>
+            <div id="searchIcons">
+                <div id="login">
+                <input class="searchBar" type="text" placeholder="Search..">
+                </div>    
+            </div>
+        </div>
         
+    
+    
     </header>
     <main>
         <form>
@@ -18,7 +58,7 @@
                     <div id="form">
                     <ul id="form-ul">
                         <li class="form-list">
-                            <p>First name</p>
+                            <p>First name*</p>
                             <input class= "input" type="text"
                             placeholder="First name"
                             minlength="2"
@@ -26,7 +66,7 @@
                             required>
                         </li>
                         <li class="form-list">
-                            <p>Last name</p>
+                            <p>Last name*</p>
                             <input class= "input" type="text"
                             placeholder="Last name"
                             minlength="2"
@@ -34,7 +74,7 @@
                             required>
                         </li>
                         <li class="form-list">
-                            <p>Email</p>
+                            <p>Email*</p>
                             <input class= "input" type="email"
                             placeholder="Email"
                             minlength="8"
@@ -50,7 +90,7 @@
                             required>
                         </li>
                         <li class="form-list">
-                            <p>Password</p>
+                            <p>Password*</p>
                             <input class= "input" type="password"
                             placeholder="Password"
                             minlength="5"
@@ -58,7 +98,7 @@
                             required>
                         </li>
                         <li class="form-list">
-                            <p>Confirm password</p>
+                            <p>Confirm password*</p>
                             <input class= "input" type="password"
                             placeholder="Confirm password"
                             minlength="5"
@@ -71,7 +111,7 @@
                     <ul id="radio">
                         <li class="rad1">
                             <input class="check1" type="checkbox" id="radio">
-                            <label class="label1" for="radio">I agree with the terms and conditions.</label>
+                            <label class="label1" for="radio">I agree with the terms and conditions.*</label>
                             
                         </li>
                         <li class="rad2">
