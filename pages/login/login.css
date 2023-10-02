@@ -20,9 +20,9 @@ body {
 #form-ul {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
     text-decoration: none;
     list-style: none;
+    margin-right: 5rem;
     }
 #section {
     background-color: #d1d1d1;
@@ -31,18 +31,27 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
     border: 0;
+    padding-left: 5rem;
     }
 .input {
     height: 2rem;
-    width: 12rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.5rem;
+    height: 2.2rem;
+    transition: 0.3s;
     }
+.input:focus {
+    background-color: #f9f1c6;
+    box-shadow: rgba(72, 135, 202, 0.8) 0 0 40px 10px;
+    transition: 0.3s;
+
+}
 .form-list {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+    flex-direction: column;
     }
 #btn {
     font-family: 'Quicksand', sans-serif;
@@ -52,9 +61,12 @@ body {
     border: none;
     cursor: pointer;
     color: white;
+    width: 15rem;
+    transition: 0.3s;
     }
 #btn:hover {
     background-color: #e46429;
+    transition: 0.3s;
     }
 #text2 {
     font-size: 2rem;
@@ -71,4 +83,19 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
+}
+#google-signin {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    gap: 1rem;
+    width: 15rem;
+    padding: 0.6rem;
+    background-color: rgb(54, 126, 221);
+    color: white;
+}
+#gicon {
+    width: 1.6rem;
+    height: auto;
 }
