@@ -31,6 +31,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+
 }
 #section {
     margin-top: 5rem;
@@ -52,6 +53,12 @@ body {
     font-family: 'Quicksand', sans-serif;
     padding: 1rem;
     font-size : 1.5rem;
+    background-color: #d2c74d;
+    border: solid #2e2e2e 2px;
+    border-radius: 1rem;
+}
+#btn:hover {
+    background-color: #a8a040;
 }
 #text2 {
     font-size: 2rem;

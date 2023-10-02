@@ -74,8 +74,15 @@ ul {
     transition: 0.2s;
     }
 li a {
+    text-decoration: none;
     padding: 2.6rem;
     }
+.dropdown-link {
+    padding: 0;
+}
+a:hover {
+    cursor: pointer;
+}
 #icon {
     border-radius: 15rem;
     position: sticky;
