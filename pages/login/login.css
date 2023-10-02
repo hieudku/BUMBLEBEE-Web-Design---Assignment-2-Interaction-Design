@@ -3,40 +3,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
-/*Structure */
 html {
     margin: 0;
-    border: 0;
-    font-family: 'Quicksand', sans-serif;
-}
-header {
-    height: 10rem;
-    background-color: rgb(228, 224, 210);
-    width: 100vw;
-}
+    padding: 0;
+    }
 body {
-    background-color: #f66e2f;
+    display: flex;
+    flex-direction: column;
     margin: 0;
-    border: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-#form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-decoration: none;
-    list-style: none;
-    gap: 1rem;
-}
+    padding: 0;
+    background-color: #f66e2f;
+    font-family: 'Quicksand', sans-serif;
+    }
 #form-ul {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-}
+    text-decoration: none;
+    list-style: none;
+    }
 #section {
     margin-top: 5rem;
     display: flex;
@@ -44,15 +29,17 @@ body {
     justify-content: space-around;
     align-items: center;
     max-height: 42rem;
-}
+    }
 .input {
     height: 2rem;
     width: 12rem;
-}
-#radio {
-    list-style: none;
-    font-size: 0.8rem;
-}
+    }
+.form-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    }
 #btn {
     font-family: 'Quicksand', sans-serif;
     padding: 1rem;
@@ -61,21 +48,10 @@ body {
     border: solid #2e2e2e 2px;
     border-radius: 1rem;
     cursor: pointer;
-}
+    }
 #btn:hover {
     background-color: #a8a040;
-}
+    }
 #text2 {
     font-size: 2rem;
-}
-.form-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-}
-footer {
-    height: 15rem;
-    background-color: rgb(228, 224, 210);
-    width: 100vw;
 }
