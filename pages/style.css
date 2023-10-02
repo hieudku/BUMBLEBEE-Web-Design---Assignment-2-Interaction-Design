@@ -15,13 +15,18 @@ header {
     width: 100vw;
 }
 body {
-    background-color: #dddddd;
+    background-color: white;
     margin: 0;
     border: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+main {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
 }
 #form {
     display: flex;
@@ -60,10 +65,12 @@ body {
     font-family: 'Quicksand', sans-serif;
     padding: 1rem;
     font-size : 1.5rem;
-    background-color: #d2c74d;
+    background-color: #f66e2f;
     border: solid #2e2e2e 2px;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     cursor: pointer;
+    border: none;
+    color: white;
 }
 #btn:hover {
     background-color: #a8a040;
@@ -81,6 +88,10 @@ footer {
     height: 15rem;
     background-color: rgb(228, 224, 210);
     width: 100vw;
+}
+#form-img {
+    width: 40rem;
+    height: auto;
 }
 /*Header */
 header {
