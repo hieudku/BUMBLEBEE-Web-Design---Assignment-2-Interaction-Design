@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 8rem;
 }
 main {
     padding-left: 4rem;
@@ -36,6 +37,8 @@ main {
 .mainImage {
     max-height: 40rem;
     width: auto;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
     }
 #bodyTitle {
     font-size: 3rem;
@@ -145,9 +148,9 @@ footer {
 /*Header content only*/
 #form-link {
     text-decoration: none;
-    color: black;
 }
 #form-button {
+    text-decoration: none;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.2rem;;
     width: 12rem;
@@ -158,9 +161,10 @@ footer {
     border: 2px solid rgb(141, 69, 28);
     background-color: #d2c74d;
     transition: 0.2s;
+    color: black;
 }
 #form-button:hover {
-    background-color:#913d0d;
+    background-color:#c6bb48;
     cursor: pointer;
     color: white;
     transition: 0.2s;
@@ -208,9 +212,7 @@ footer {
     margin-top: 2rem;
     margin-right: 1rem;
 }
-img:hover {
-    cursor: pointer;
-}
+
 #headerText {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -231,13 +233,16 @@ img:hover {
     align-items: center;
     font-size: 2rem;
     position: absolute;
-    top: 35rem;
+    top: 38rem;
 }
 #iconText {
     font-size: 1.3rem;
     color: #2e2e2e;
     margin-left: 1rem;
     margin-top: 3rem;
+}
+h1 {
+    margin-top: 2rem;
 }
 #iconLine {
     margin-top: 2rem;
