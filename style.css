@@ -27,14 +27,14 @@ main {
     align-items: center;
     }
 .article {
-    line-height: 2.5rem;
+    line-height: 3rem;
     font-size: 1.4rem;
     text-align: left;
     margin-left: 1rem;
     color: #2e2e2e;
     }
 .mainImage {
-    max-height: 30rem;
+    max-height: 40rem;
     width: auto;
     }
 #bodyTitle {

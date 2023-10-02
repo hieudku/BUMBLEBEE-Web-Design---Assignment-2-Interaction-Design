@@ -24,8 +24,8 @@ body {
     justify-content: center;
 }
 main {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
     display: flex;
 }
 #form {
@@ -64,6 +64,7 @@ main {
 #btn {
     font-family: 'Quicksand', sans-serif;
     padding: 1rem;
+    width: 10rem;
     font-size : 1.5rem;
     background-color: #f66e2f;
     border: solid #2e2e2e 2px;
