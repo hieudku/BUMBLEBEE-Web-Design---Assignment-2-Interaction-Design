@@ -20,23 +20,23 @@ body {
 #form-ul {
     display: flex;
     flex-direction: column;
-    text-decoration: none;
     list-style: none;
-    margin-right: 5rem;
+    margin-left: -2.5rem;
     }
 #section {
     background-color: #d1d1d1;
-    width: 40rem;
+    width: 32rem;
     height: 40rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     border: 0;
     padding-left: 5rem;
+    gap: 1rem;
     }
 .input {
     height: 2rem;
-    width: 15rem;
+    width: 27rem;
     border-radius: 0.5rem;
     border: none;
     padding: 0.5rem;
@@ -53,6 +53,11 @@ body {
     display: flex;
     flex-direction: column;
     }
+#forgot {
+    display: flex;
+    align-items: center;
+    gap: 14rem;
+}
 #btn {
     font-family: 'Quicksand', sans-serif;
     padding: 1rem;
@@ -61,7 +66,7 @@ body {
     border: none;
     cursor: pointer;
     color: white;
-    width: 15rem;
+    width: 27rem;
     transition: 0.3s;
     }
 #btn:hover {
@@ -87,10 +92,11 @@ body {
 #google-signin {
     display: flex;
     align-items: center;
+    justify-content: center;
     text-align: center;
     border-radius: 0.5rem;
-    gap: 1rem;
-    width: 15rem;
+    gap: 0.6rem;
+    width: 26rem;
     padding: 0.6rem;
     background-color: rgb(54, 126, 221);
     color: white;

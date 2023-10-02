@@ -14,11 +14,9 @@
     <div id="login">
         <img id="form-img" src="/img/3143931.jpg">
         <section id="section">
-            <div id="text2">Sign in to Bob The Builder</div>
+            <div id="text2"><strong>Sign in to Bob The Builder</strong></div>
             <a id="google-signin"><img  id="gicon" src="/img/google_icon.png"><strong>Sign in with Google</strong></a>
-
-            <div id="form">
-                <ul id="form-ul">
+            <ul id="form-ul">
                     <li class="form-list">
                         <p>Email Address</p>
                         <input class= "input" type="email"
@@ -28,7 +26,10 @@
                         required>
                     </li>
                     <li class="form-list">
-                        <p>Password</p>
+                        <div id="forgot">
+                            <p>Password</p>
+                            <a href="#">Forgot password?</a>
+                        </div>
                         <input class= "input" type="password"
                         placeholder="Password"
                         minlength="5"
@@ -36,8 +37,8 @@
                         required>
                     </li>
                 </ul>
-            </div>
-            <button id="btn"><strong>Log in</strong></button>
+            <button id="btn"><strong>Sign in</strong></button>
+            <p>Not a member? <a href="#"> Sign up now.</a>
         </section>
     </div>
 
