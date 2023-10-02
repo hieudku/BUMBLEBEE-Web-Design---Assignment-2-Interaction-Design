@@ -18,7 +18,7 @@ body {
     align-items: center;
     justify-content: center;
 }
-#form-ul {
+#form {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -26,6 +26,11 @@ body {
     text-decoration: none;
     list-style: none;
     gap: 1rem;
+}
+#form-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 #section {
     margin-top: 5rem;
@@ -53,7 +58,7 @@ body {
 }
 .form-list {
     display: flex;
-    justify-content:left;
-    align-items:start;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
 }
