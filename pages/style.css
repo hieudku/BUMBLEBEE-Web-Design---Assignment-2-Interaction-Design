@@ -10,6 +10,7 @@ html {
     font-family: 'Quicksand', sans-serif;
 }
 body {
+    background-color: #f66e2f;
     margin: 0;
     border: 0;
     display: flex;
@@ -17,34 +18,42 @@ body {
     align-items: center;
     justify-content: center;
 }
-#form {
-    margin-top: 10rem;
-    font-size: 15px;
-    padding: 1rem;
-    background-color: #c4bebb;
-    max-width: 22rem;
-    height: 40rem;
+#form-ul {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-}
-#form-ul {
     text-decoration: none;
     list-style: none;
+    gap: 1rem;
 }
-.form-list {
-    height: 30px;
+#section {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 42rem;
 }
 .input {
     height: 2rem;
-    width: 15rem;
+    width: 12rem;
 }
 #radio {
     list-style: none;
+    font-size: 0.8rem;
 }
 #btn {
     font-family: 'Quicksand', sans-serif;
     padding: 1rem;
     font-size : 1.5rem;
+}
+#text2 {
+    font-size: 2rem;
+}
+.form-list {
+    display: flex;
+    justify-content:left;
+    align-items:start;
+    gap: 1rem;
 }
