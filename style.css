@@ -94,6 +94,7 @@ a:hover {
     }
 /*Header content only*/
 header {
+    position: sticky;
     background-color: #f66e2f;
     color:#2e2e2e;
     font-family: 'Quicksand', sans-serif;
