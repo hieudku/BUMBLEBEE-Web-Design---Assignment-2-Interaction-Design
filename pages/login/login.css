@@ -25,14 +25,14 @@ body {
     list-style: none;
     }
 #section {
-    background-color: #c6c6c5;
+    background-color: #d1d1d1;
     width: 40rem;
     height: 40rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
+    border: 0;
     }
 .input {
     height: 2rem;
@@ -48,13 +48,13 @@ body {
     font-family: 'Quicksand', sans-serif;
     padding: 1rem;
     font-size : 1.5rem;
-    background-color: #d2c74d;
-    border: solid #2e2e2e 2px;
-    border-radius: 1rem;
+    background-color: #f66e2f;
+    border: none;
     cursor: pointer;
+    color: white;
     }
 #btn:hover {
-    background-color: #a8a040;
+    background-color: #e46429;
     }
 #text2 {
     font-size: 2rem;
@@ -64,11 +64,11 @@ body {
     width: auto;
     height: 40rem;
     filter: drop-shadow(5px 10px 9px #a39f9f);
+    border: none;
 }
 #login {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid black 1px;
     margin-top: 5rem;
 }
