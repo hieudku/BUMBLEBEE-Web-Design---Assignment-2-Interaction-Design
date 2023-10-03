@@ -16,6 +16,10 @@ body {
     padding: 0;
     background-color:#f1f1f1;
     font-family: 'Quicksand', sans-serif;
+    background-image: url('/img/bumblebee-transformer.png');
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: right;
     }
 #form-ul {
     display: flex;
@@ -24,7 +28,7 @@ body {
     margin-left: -2.5rem;
     }
 #section {
-    background-color: #d1d1d1;
+    background-color: rgba(195, 194, 193, 0.9);
     width: 32rem;
     height: 40rem;
     display: flex;
@@ -105,3 +109,5 @@ body {
     width: 1.6rem;
     height: auto;
 }
+
+/* Header */
