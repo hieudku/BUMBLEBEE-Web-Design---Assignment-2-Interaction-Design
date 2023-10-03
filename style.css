@@ -63,7 +63,7 @@ ul {
     color: #2e2e2e;
     }
 .navLink {
-    color: #2e2e2e;
+    color: #DDDDDD;
     min-width: 12px;
     text-decoration: none;
     font-size: 1rem;
@@ -73,7 +73,7 @@ ul {
     }
 .navLink:hover {
     color: #2e2e2e;
-    background-color: #d2c74d;
+    background-color: #e49f4a;
     transition: 0.2s;
     }
 li a {
@@ -93,14 +93,13 @@ a:hover {
     max-width: 8rem;
     margin-top: 2rem;
     margin-left: 5rem;
-    border: solid #2e2e2e 2px;
+    border: solid #dddddd 2px;
     }
 /*Header content only*/
 header {
     position: sticky;
     background-image: url('/img/orange\ and\ black\ background.jpg');
     background-size: cover;
-    color:#2e2e2e;
     font-family: 'Quicksand', sans-serif;
     max-width: 100vw;
     padding: 0;
@@ -115,10 +114,10 @@ header {
     }
 .dropdown-content {
     line-height: 3rem;
-    color: #2e2e2e;
+    color: #252525;
     display: none;
     position: absolute;
-    background-color: #d2c74d;
+    background-color: #e49f4a;
     width: 17rem;
     padding: 12px 16px;
     z-index: 1;
@@ -130,7 +129,7 @@ header {
     }
 .serviceDropdown:hover a {
     color: #2e2e2e;
-    background-color: #d2c74d;
+    background-color: #e49f4a;
     }
 footer {
     padding-top: 4rem;
@@ -154,20 +153,22 @@ footer {
 }
 #form-link {
     text-decoration: none;
+    color: white;
 }
 #form-button {
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
-    font-size: 1.2rem;;
-    width: 12rem;
-    margin-top: 10rem;
+    font-size: 1.5rem;;
+    width: 20rem;
+    height: 5rem;
+    margin-top: 42rem;
     margin-right: 2rem;
     padding: 1rem;
-    border-radius: 2rem;
-    border: 2px solid rgb(141, 69, 28);
-    background-color: #d2c74d;
+    border-radius: 1rem;
+    border: 1px solid #dddddd;
+    background-color: #252525;
     transition: 0.2s;
-    color: black;
+    color: #dddddd;
 }
 #form-button:hover {
     background-color:#c6bb48;
@@ -234,16 +235,16 @@ footer {
 #runningText {
     font-family: 'Quicksand', sans-serif;
     margin-top: 2rem;
-    color: #2e2e2e;
+    color: #dddddd;
     display: flex;
     align-items: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     position: absolute;
     top: 38rem;
 }
 #iconText {
     font-size: 1.3rem;
-    color: #2e2e2e;
+    color: #dddddd;
     margin-left: 1rem;
     margin-top: 3rem;
 }
