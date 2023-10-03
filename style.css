@@ -146,6 +146,11 @@ footer {
     gap: 8rem;
     }
 /*Header content only*/
+.arrow {
+    width: 1rem;
+    height: auto;
+    z-index: 1;
+}
 #form-link {
     text-decoration: none;
 }
