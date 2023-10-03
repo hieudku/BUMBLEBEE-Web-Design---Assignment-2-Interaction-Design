@@ -84,7 +84,7 @@ ul {
     }
 .navLink:hover {
     color: #2e2e2e;
-    background-color: #e49f4a;
+    background-color: #ffa500;
     transition: 0.2s;
     }
 li a {
@@ -128,7 +128,7 @@ a:hover {
     color: #252525;
     display: none;
     position: absolute;
-    background-color: #e49f4a;
+    background-color: #ffa500;
     width: 17rem;
     padding: 12px 16px;
     z-index: 1;
@@ -140,7 +140,7 @@ a:hover {
     }
 .serviceDropdown:hover a {
     color: #2e2e2e;
-    background-color: #e49f4a;
+    background-color: #ffa500;
     }
 footer {
     padding-top: 4rem;
@@ -280,7 +280,7 @@ aside {
     margin-top: 8rem;
     position: absolute;
     left: 0;
-    background-color: #f66e2f;
+    background-color: #ffa500;
     color: #2e2e2e;
     height: auto;
     max-width: 15rem;
