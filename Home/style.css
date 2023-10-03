@@ -97,7 +97,7 @@ a:hover {
     cursor: pointer;
 }
 #icon {
-    border-radius: 15rem;
+    border-radius: 20rem;
     position: sticky;
     max-height: 8rem;
     max-width: 8rem;
