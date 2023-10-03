@@ -16,7 +16,7 @@ body {
     padding: 0;
     background-color:#f1f1f1;
     font-family: 'Quicksand', sans-serif;
-    background-image: url('/img/bumblebee-transformer.png');
+    background-image: url('../img/bumblebee-transformer.png');
     background-size:auto;
     background-repeat: no-repeat;
     background-position: right;
