@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:opsz@8..30&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+/*Structure */
+html {
+    margin: 0;
+    border: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+    /* user header*/
+    #user-header {
+        display: flex;
+        flex-direction: column;
+        align-items: right;
+    }
+    #user-background {
+        width: 100vw;
+        height: 22rem;
+        
+    }
+    #user-photo {
+        width: 12rem;
+        height: 12rem;
+        border-radius: 15rem;
+        margin-left: 20rem;
+    }
+    #user-info {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+    #user-banner {
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+        margin-top: 1rem;
+    }
+
+    /* main content*/
+    #main-content {
+        display: flex;
+    }
+    #sidebar {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 20rem;
+        background-color: #ffa500;
+    }
