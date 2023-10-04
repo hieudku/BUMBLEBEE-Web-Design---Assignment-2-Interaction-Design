@@ -22,7 +22,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('/img/bumblebee-transformer.png');
+    background-image: url('../img/bumblebee-transformer.png');
     background-size:70vh;
     background-repeat: no-repeat;
     background-position: right;
