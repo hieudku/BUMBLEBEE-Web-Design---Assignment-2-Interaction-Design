@@ -31,6 +31,7 @@ main {
     margin-top: 2rem;
     margin-bottom: 10rem;
     display: flex;
+    align-items: center;
 }
 #form {
     display: flex;
@@ -47,12 +48,16 @@ main {
     align-items: flex-end;
 }
 #section {
-    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     max-height: 42rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 2rem;
+    background-color: rgb(217, 217, 217, 0.8);
 }
 .input {
     padding: 5px;
@@ -97,8 +102,8 @@ footer {
     width: 100vw;
 }
 #form-img {
-    width: 40rem;
-    height: auto;
+    width: 33rem;
+    height: fit-content;
 }
 /*Header */
 header {

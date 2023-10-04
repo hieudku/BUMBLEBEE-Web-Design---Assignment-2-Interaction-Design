@@ -185,10 +185,10 @@ footer {
     color: #dddddd;
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
-    font-size: 1.5rem;;
-    width: 18rem;
+    font-size: 1.2rem;;
+    width: 15rem;
     height: 3rem;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
     border-radius: 0.8rem;
@@ -197,6 +197,7 @@ footer {
     background-color: #252525;
     transition: 0.2s;
     color: #dddddd;
+    border-radius: 5rem;
 }
 #contact-link:hover {
     background-color:#ffa500;
@@ -209,23 +210,23 @@ footer {
     color: #dddddd;
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
-    font-size: 1.5rem;;
-    width: 15rem;
+    font-size: 1.2rem;;
+    width: 12rem;
     height: 3rem;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
     border-radius: 0.8rem;
     margin-left: 4.5rem;
     border: 1px solid #dddddd;
-    background-color: #ffa500;
+    background-color: #252525;
     transition: 0.2s;
-    color: #252525;
+    color: #dddddd;
 }
 #form-link:hover {
-    background-color:#252525;
+    background-color:#ffa500;
     cursor: pointer;
-    color: #dddddd;
+    color: #252525;
     transition: 0.2s;
 }
 #contact-icons {
