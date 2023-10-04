@@ -14,22 +14,29 @@ body {
     display: flex;
     flex-direction: column;
 }
+
     /* user header*/
     #user-header {
         display: flex;
         flex-direction: column;
         align-items: right;
+        background-color: #2f2e2c;
+        color: #dddddd;
+        padding-bottom: 2rem;
     }
-    #user-background {
+    #user-nav {
+        background-image: url('../img/orange\ and\ black\ background.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 20rem;
         width: 100vw;
-        height: 22rem;
-        
     }
     #user-photo {
         width: 12rem;
         height: 12rem;
         border-radius: 15rem;
         margin-left: 20rem;
+        border: solid #dddddd 2px;
     }
     #user-info {
         display: flex;
@@ -40,7 +47,7 @@ body {
         display: flex;
         align-items: center;
         gap: 4rem;
-        margin-top: 1rem;
+        margin-top: 2rem;
     }
 
     /* main content*/
@@ -51,6 +58,6 @@ body {
         display: flex;
         flex-direction: column;
         height: 100vh;
-        width: 20rem;
-        background-color: #ffa500;
+        width: 32rem;
+        border-right: solid #53524e 1px;
     }
