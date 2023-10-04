@@ -124,6 +124,7 @@ a:hover {
     }
 .dropdown-content {
     line-height: 3rem;
+    font-size: 1.2rem;
     color: #252525;
     display: none;
     position: absolute;
@@ -163,7 +164,7 @@ footer {
     margin-left: 5rem;
 }
 #landing-para {
-    line-height: 1.5rem;
+    line-height: 2.5rem;
 }
 .arrow {
     width: 1rem;
