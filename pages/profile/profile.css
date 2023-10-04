@@ -161,3 +161,15 @@ li {
         font-size: 1.2rem;
         margin-left: 2.5rem;
     }
+/* Main content */
+#profile-detail {
+    background-color: #e6e4e4;
+}
+#content-img1 {
+    width: 50rem;
+    height: auto;
+}
+.content-title {
+    font-size: 1.2rem;
+    border-radius: 2rem;
+}
