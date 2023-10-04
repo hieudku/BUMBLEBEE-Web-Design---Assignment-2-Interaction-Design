@@ -66,7 +66,6 @@ ul {
     justify-content: center;
     align-items: center;
     background-color: #4272b4 0.5;
-    width: 100vw;
     }
 .serviceDropdown {
     text-decoration: none;
@@ -88,7 +87,7 @@ ul {
     }
 li a {
     text-decoration: none;
-    padding: 2.6rem;
+    padding: 2rem;
     }
 .dropdown-link {
     padding: 0;
@@ -110,13 +109,11 @@ a:hover {
     color: #dddddd;
 }
 #horizontal-header {
-    position: sticky;
     font-family: 'Quicksand', sans-serif;
     max-width: 100vw;
     padding: 0;
-    height: 100vh;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     }
 .serviceDropdown {
     position: relative;
@@ -158,42 +155,77 @@ footer {
     }
 /*Header content only*/
 #landing-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     font-size: 1.4rem;
-    position: absolute;
-    top: 18rem;
     margin-left: 5rem;
+    margin-bottom: 8rem;
+    margin-top: 8rem;
 }
 #landing-para {
     line-height: 2.5rem;
+    font-size: 1.2rem;
 }
 .arrow {
     width: 1rem;
     height: auto;
     z-index: 1;
 }
-#form-link {
-    text-decoration: none;
-    color: #dddddd;
+#bottom-links {
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
-#form-button {
+#contact-link {
+    text-align: center;
+    color: #dddddd;
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5rem;;
-    width: 20rem;
-    height: 5rem;
-    margin-top: 42rem;
-    margin-right: 2rem;
-    padding: 1rem;
-    border-radius: 1rem;
+    width: 18rem;
+    height: 3rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.8rem;
+    margin-right: 4.5rem;
     border: 1px solid #dddddd;
     background-color: #252525;
     transition: 0.2s;
     color: #dddddd;
 }
-#form-button:hover {
-    background-color:#060606;
+#contact-link:hover {
+    background-color:#ffa500;
     cursor: pointer;
     color: #252525;
+    transition: 0.2s;
+}
+#form-link {
+    text-align: center;
+    color: #dddddd;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;;
+    width: 15rem;
+    height: 3rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.8rem;
+    margin-left: 4.5rem;
+    border: 1px solid #dddddd;
+    background-color: #ffa500;
+    transition: 0.2s;
+    color: #252525;
+}
+#form-link:hover {
+    background-color:#252525;
+    cursor: pointer;
+    color: #dddddd;
     transition: 0.2s;
 }
 #contact-icons {
@@ -221,7 +253,8 @@ footer {
     max-width: auto;
     display: flex;
 }
-.searchBar {
+#searchBar {
+    margin-left: 10rem;
     color: #2e2e2e;
     width: 10rem;
     height: 2rem;
@@ -263,16 +296,17 @@ footer {
     top: 32rem;
 }
 #iconText {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #dddddd;
     margin-left: 1rem;
+    margin-right: 8rem;
     margin-top: 0rem;
 }
 
 #iconLine {
     margin-top: 2rem;
     margin-left: 1rem;
-    height: 5rem;
+    height: 7.5rem;
 }
 /*Side bar only */
 aside {
