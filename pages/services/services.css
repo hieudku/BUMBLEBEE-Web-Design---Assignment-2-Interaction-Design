@@ -10,7 +10,7 @@ html {
     font-family: 'Quicksand', sans-serif;
 }
 body {
-    background-color: #dddddd;
+    background-color: #e6e6e6;
     margin: 0;
     border: 0;
     display: flex;
@@ -56,6 +56,15 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: solid #ffa500 1px;
+    border-radius: 2rem;
+    transition: 0.3s
+}
+.content-box:hover {
+    border: solid #dddddd 1px;
+    transition: 0.3s;
+    background-color: #2f2e2c;
+    color: #dddddd;
 }
 .content-img {
     max-width: 18rem;
@@ -85,7 +94,7 @@ h1 {
 #main-section2 {
     display: flex;
     flex-wrap: wrap;
-    background-color: #dddddd;
+    background-color: #e6e6e6;
     width: 100vw;
     justify-content: center;
     gap: 2rem;
@@ -105,6 +114,9 @@ h1 {
     max-width: 12rem;
 }
 /* End Section 2 */
+#bottom-header {
+    margin-bottom: 2rem;
+}
 /* End main */
 /*Header */
 #services {
