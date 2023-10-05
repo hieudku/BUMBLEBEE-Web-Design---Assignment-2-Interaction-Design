@@ -11,8 +11,10 @@ html {
 }
 header {
     height: 10rem;
-    background-color: rgb(228, 224, 210);
+
     width: 100vw;
+    background-image: url('../img/orange\ and\ black\ background.jpg');
+    background-size: cover;
 }
 body {
     background-color: white;
@@ -48,6 +50,7 @@ main {
     align-items: flex-end;
 }
 #section {
+    backdrop-filter: blur(2px);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -57,7 +60,7 @@ main {
     padding-top: 2rem;
     padding-bottom: 2rem;
     border-radius: 2rem;
-    background-color: rgb(217, 217, 217, 0.8);
+    background-color: rgb(217, 217, 217, 0.6);
 }
 .input {
     padding: 5px;
@@ -244,7 +247,7 @@ img:hover {
 #iconLine {
     margin-top: 2rem;
     margin-left: 0.5rem;
-    height: 4rem;
+    height: 7rem;
 }
 #header-ul {
     height: 5.8rem;
