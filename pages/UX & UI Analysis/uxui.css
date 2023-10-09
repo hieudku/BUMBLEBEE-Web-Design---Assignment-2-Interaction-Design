@@ -60,7 +60,6 @@ footer {
     max-width: 30rem;
     height: auto;
     filter: drop-shadow(5px 5px 10px #666);
-
 }
 .small-img {
     max-width: 10rem;
@@ -71,7 +70,26 @@ footer {
     width: auto;
     height: 20rem;
     filter: drop-shadow(5px 5px 10px #666);
-
+}
+#bottom-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color:#2f2e2c;
+    background-color: #ffa500;
+    border-radius: 2rem;
+    border: solid #2c2b2b 2px;
+    transition: 0.3s;
+}
+#bottom-link:hover {
+    background-color: #2f2e2c;
+    color: #dddddd;
+    transition: 0.3s;
 }
 .title {
     display: flex;
@@ -172,9 +190,6 @@ header {
     align-items: center;
     margin-top: 2rem;
     margin-right: 1rem;
-}
-img:hover {
-    cursor: pointer;
 }
 #headerText {
     padding-left: 1.5rem;

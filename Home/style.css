@@ -220,17 +220,17 @@ footer {
     padding-top: 1.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    border-radius: 0.8rem;
+    border-radius: 3rem;
     margin-left: 4.5rem;
     border: 1px solid #dddddd;
-    background-color: #252525;
+    background-color: #ffa500;
     transition: 0.2s;
-    color: #dddddd;
+    color: #2e2e2e;
 }
 #form-link:hover {
-    background-color:#ffa500;
+    background-color:#252525;
     cursor: pointer;
-    color: #252525;
+    color: #dddddd;
     transition: 0.2s;
 }
 #contact-icons {
