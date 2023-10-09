@@ -24,12 +24,42 @@ body {
     align-items: center;
     justify-content: center;
 }
+/* Main content */
 main {
     margin-top: 2rem;
     margin-bottom: 10rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
+.section {
+    max-width: 40rem;
+}
+.paragraph {
+    line-height: 2rem;
+}
+.main-img {
+    max-width: 30rem;
+    height: auto;
+}
+.small-img {
+    max-width: 10rem;
+    height: auto;
+}
+#bottom-img {
+    width: auto;
+    height: 20rem;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+li {
+    margin-bottom: 1rem;
+    line-height: 2rem;
+}
+/* End of Main content */
 footer {
     height: 12rem;
     background-color: rgb(228, 224, 210);
