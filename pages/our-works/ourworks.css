@@ -4,10 +4,11 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 #showcase {
+    overflow: hidden;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: 6rem;
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
@@ -18,28 +19,37 @@
     padding-top: 5rem;
     padding-bottom: 5rem;
     border-radius: 5rem;
-    background-color: #2c2b2b;
+    background-color: #dddddd;
 }
 .panel {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+    z-index: 1000;
+    height: 300px;
+    width: 300px;
+    border: solid #6d6c6c 2px;
+    border-radius: 1rem;
 }
 .panel-link {
     text-decoration: none;
-    color: #dddddd;
+    color: #2f2e2c;
     z-index: 1000;
+    margin-bottom: 15rem;
+    width: 20rem;
+    background-color: #ffa500;
+    z-index: 1000;
+    text-align: center;
 }
 .panel-img {
-    overflow: hidden;
-    width: 20rem;
-    height: 20rem;
-    border: solid #dddddd 2px;
-    border-radius: 2rem;
+    position: absolute;
+    max-width: 20rem;
+    height: 25rem;
     transition: 0.3s;
     object-fit: cover;
-    z-index: 1000;
+    z-index: 1;
 }
 .panel-img:hover {
     -moz-transition: all 0.3s;
@@ -48,7 +58,6 @@
     -ms-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
-    overflow: hidden;
     transform-origin: 50% 50%;
 }
 /*Structure */
