@@ -48,7 +48,7 @@
     max-width: 20rem;
     height: 25rem;
     transition: 0.3s;
-    object-fit: cover;
+    object-fit: contain;
     z-index: 1;
 }
 .panel-img:hover {
@@ -57,7 +57,7 @@
     transition: all 0.3s;
     -ms-transform: scale(1.2);
     -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    transform: scale(1.5);
     transform-origin: 50% 50%;
 }
 /*Structure */
